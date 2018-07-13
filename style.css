@@ -7,76 +7,86 @@ h1{
 
 #bento{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  width: 100em;
-  height: 75em;
+  flex-flow: row wrap;
+  width: 75em;
+  height: 60em;
   line-height: 10em;
   border: solid 10px darkgray;
 }
 
-.box1{
-  background: skyblue;
-  align-self: flex-start;
-  justify-content: center;
-  align-items: left;
-  display: flex;
-  height: 10em;
-  width: 33em;
-  }
-
-.box2{
-  background: yellow;
-  align-self: flex-start;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  height: 25em;
-  width: 33em;
-  }
-
-.box3{
-  background: aqua;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  height: 37em;
-  width: 33em;
-}
-
-.box4{
+.b1{
+  border-radius: .5em;
+  margin: .25em;
   background: violet;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 65em;
-  width: 33em;
+  height: 10em;
+  width: 24.5em;
+  }
+
+.b2{
+  border-radius: .5em;
+  margin: .25em;
+  background: yellow;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 20em;
+  width: 24.5em;
+  }
+
+.b3{
+  border-radius: .5em;
+  margin: .25em;
+  background: aqua;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 23em;
+  width: 24.5em;
 }
 
-.box5{
+.b4{
+  border-radius: .5em;
+  margin: .25em;
+  background: lightblue;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50em;
+  width: 24.5em;
+}
+
+.b5{
+  border-radius: .5em;
+  margin: .25em;
   background: pink;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 25em;
-  width: 33em;
+  height: 10em;
+  width: 24.5em;
 }
 
-.box6{
+.b6{
+  border-radius: .5em;
+  margin: .25em;
   background: red;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 25em;
-  width: 33em;
+  height: 23em;
+  width: 24.5em;
 }
 
-.box7{
+.b7{
+  border-radius: .5em;
+  margin: .25em;
   background: skyblue;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 37em;
-  width: 33em;
+  height: 15em;
+  width: 24.5em;
 }
