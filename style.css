@@ -1,15 +1,16 @@
 h1{
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     bottom: 0;
 }
 
 #bento{
   display: flex;
-  flex-flow: row wrap;
-  width: 75em;
-  height: 60em;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  height: 30em;
+  width: 50em;
   line-height: 10em;
   border: solid 10px darkgray;
 }
@@ -17,34 +18,34 @@ h1{
 .b1{
   border-radius: .5em;
   margin: .25em;
-  background: violet;
+  background: slategrey;
   justify-content: center;
   align-items: center;
   display: flex;
   height: 10em;
-  width: 24.5em;
+  width: 16em;
   }
 
 .b2{
   border-radius: .5em;
   margin: .25em;
-  background: yellow;
+  background: darkseagreen;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 20em;
-  width: 24.5em;
+  height: 19em;
+  width: 16em;
   }
 
 .b3{
   border-radius: .5em;
   margin: .25em;
-  background: aqua;
+  background: thistle;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 23em;
-  width: 24.5em;
+  height: 9.5em;
+  width: 16em;
 }
 
 .b4{
@@ -54,8 +55,8 @@ h1{
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 50em;
-  width: 24.5em;
+  height: 9.5em;
+  width: 16em;
 }
 
 .b5{
@@ -65,19 +66,19 @@ h1{
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 10em;
-  width: 24.5em;
+  height: 9.5em;
+  width: 16em;
 }
 
 .b6{
   border-radius: .5em;
   margin: .25em;
-  background: red;
+  background: cadetblue;
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 23em;
-  width: 24.5em;
+  height: 14.5em;
+  width: 16em;
 }
 
 .b7{
@@ -87,6 +88,6 @@ h1{
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 15em;
-  width: 24.5em;
+  height: 14.5em;
+  width: 16em;
 }
